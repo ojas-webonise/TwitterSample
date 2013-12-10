@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:frame="http://schemas.android.com/apk/res/com.android.twitter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.twitter.FramedImageView
+        android:id="@+id/noImgVw"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        frame:placeHolder="@drawable/noimage" />
+
+    <com.android.twitter.FramedImageView
+        android:id="@+id/imgVw"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        frame:placeHolder="@drawable/noimage" />
+
+</LinearLayout>
